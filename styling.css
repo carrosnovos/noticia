@@ -45,14 +45,11 @@ body{
 #image img{
     max-width: 500px;
     max-height: 333px;  
-/*
     min-width: 450px;
     min-height: 300px;
-*/
 }
 img{
     width: 100%;
-    height: auto;
 }
 
 #text{
