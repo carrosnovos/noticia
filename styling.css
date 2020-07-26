@@ -42,10 +42,14 @@ body{
 /*    align-items: center;*/
     justify-content: center;
 }
+#image img{
+    max-width: 500px;
+    max-height: 333px;  
+    min-width: 450px;
+    min-height: 300px;
+}
 img{
     width: 100%;
-    max-width: 500px;
-    max-height: 333px;
 }
 
 #text{
