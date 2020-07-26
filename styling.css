@@ -45,11 +45,14 @@ body{
 #image img{
     max-width: 500px;
     max-height: 333px;  
+/*
     min-width: 450px;
     min-height: 300px;
+*/
 }
 img{
     width: 100%;
+    height: auto;
 }
 
 #text{
@@ -69,7 +72,25 @@ img{
     justify-content: center;    
 
 }
-#button{
+#button1{
+    display: flex;
+    background: linear-gradient(#FFFE66, #FFA134);
+    background: -webkit-linear-gradient(#FFFE66, #FFA134);
+    background: -o-linear-gradient(#FFFE66, #FFA134);
+    background: -moz-linear-gradient(#FFFE66, #FFA134);
+    width: 250px;
+    height: 60px;
+    font-size: 1em;
+    font-weight: 500;
+    border-color: black;
+    border-style:solid;
+    border-radius: 10px;
+    border-width: thin;
+    justify-content: center;  
+    align-items: center;
+    text-shadow: #FFF 1px 1px 1px;
+}
+#button2{
     display: flex;
     background: linear-gradient(#FFFE66, #FFA134);
     background: -webkit-linear-gradient(#FFFE66, #FFA134);
@@ -87,7 +108,11 @@ img{
     align-items: center;
     text-shadow: #FFF 1px 1px 1px;
 }
-#button a{
+#button1 a{
+    text-decoration: none;
+    color: black;
+}
+#button2 a{
     text-decoration: none;
     color: black;
 }
